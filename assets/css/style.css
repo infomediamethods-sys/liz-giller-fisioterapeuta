@@ -479,8 +479,8 @@ p .link-seta, li .link-seta { min-height: var(--toque-min); }
 /* 16/10: a base da foto dissolve no tecido do fundo (sem retângulo colado) */
 .heroi__cartao picture {
   display: block;
-  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 66%, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, 0) 92%);
-  mask-image: linear-gradient(to bottom, #000 0%, #000 66%, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, 0) 92%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 50%, rgba(0, 0, 0, .45) 66%, rgba(0, 0, 0, 0) 78%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 50%, rgba(0, 0, 0, .45) 66%, rgba(0, 0, 0, 0) 78%);
 }
 .heroi__chip { position: absolute; top: var(--space-4); left: var(--space-4); }
 .heroi__legenda {
@@ -549,6 +549,10 @@ p .link-seta, li .link-seta { min-height: var(--toque-min); }
     border-radius: var(--raio-foto) 0 0 var(--raio-foto);
   }
   .heroi__cartao img { object-position: 50% 15%; }
+  .heroi__cartao picture {
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 66%, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, 0) 92%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 66%, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, 0) 92%);
+  }
   .heroi__chip { top: var(--space-5); left: var(--space-5); }
   .heroi__legenda { padding: var(--space-9) var(--space-6) var(--space-6); }
   .tira { margin-top: var(--space-8); padding-block: var(--space-6); }
