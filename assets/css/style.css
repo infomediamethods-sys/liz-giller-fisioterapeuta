@@ -489,7 +489,8 @@ p .link-seta, li .link-seta { min-height: var(--toque-min); }
   display: grid;
   gap: var(--space-1);
   padding: var(--space-8) var(--space-5) var(--space-5);
-  background: linear-gradient(to top, rgba(28, 22, 26, .72) 0%, rgba(28, 22, 26, .4) 55%, rgba(28, 22, 26, 0) 100%);
+  /* sem caixa: a foto já dissolve no fundo; a sombra só segura a leitura */
+  text-shadow: 0 1px 14px rgba(20, 16, 19, .75);
 }
 .heroi__legenda .rotulo { color: var(--accent-soft); }
 .heroi__nome { font-family: var(--fonte-titulo); font-size: 1.75rem; line-height: 1.05; color: var(--paper); }
