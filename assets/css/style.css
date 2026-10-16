@@ -479,8 +479,8 @@ p .link-seta, li .link-seta { min-height: var(--toque-min); }
 /* 16/10: a base da foto dissolve no tecido do fundo (sem retângulo colado) */
 .heroi__cartao picture {
   display: block;
-  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 62%, rgba(0, 0, 0, .55) 84%, rgba(0, 0, 0, 0) 100%);
-  mask-image: linear-gradient(to bottom, #000 0%, #000 62%, rgba(0, 0, 0, .55) 84%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 66%, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, 0) 92%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 66%, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, 0) 92%);
 }
 .heroi__chip { position: absolute; top: var(--space-4); left: var(--space-4); }
 .heroi__legenda {
