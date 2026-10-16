@@ -15,8 +15,8 @@
   --muted-escuro: #A39CA1;
   --line: rgba(26, 23, 25, .12);
   --line-escuro: rgba(255, 255, 255, .10);
-  --veu: rgba(26, 23, 25, .70);
-  --veu-base: rgba(26, 23, 25, .90);
+  --veu: rgba(26, 23, 25, .55);
+  --veu-base: rgba(26, 23, 25, .88);
   --paper-82: rgba(230, 226, 214, .82);
   --brand: var(--ink);
   --surface-1: var(--paper);
